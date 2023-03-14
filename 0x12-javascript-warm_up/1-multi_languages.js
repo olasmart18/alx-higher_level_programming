@@ -1,7 +1,5 @@
 #!/usr/bin/node
 
-const c = 'C is fun\n';
-const python = 'Python is cool\n';
-const javaScript = 'JavaScript is amazing\n';
+const programms = 'C is fun\nPython is cool\nJavaScript is amazing';
 
-console.log(c,python,javaScript);
+console.log(programms);
