@@ -3,7 +3,7 @@
 // .slice() method trims out the first 2
 // default arguments
 
-let args = process.argv.slice(2);
+const args = process.argv.slice(2);
 
 // console.log(args.length);
 
