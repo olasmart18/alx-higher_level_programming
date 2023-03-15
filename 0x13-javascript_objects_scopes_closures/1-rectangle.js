@@ -11,4 +11,4 @@ const Rectangle = class Rectangle {
   }
 };
 
-module.exports = Rectangle; /\\\\\n\g
+module.exports = Rectangle;
