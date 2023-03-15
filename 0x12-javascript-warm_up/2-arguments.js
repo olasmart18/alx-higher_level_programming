@@ -8,12 +8,9 @@ const args = process.argv.slice(2);
 // console.log(args.length);
 
 if (args.length > 1) {
-    console.log(' Arguments found');
+  console.log(' Arguments found');
 } else if (args.length === 1) {
-    console.log('Argument found');
+  console.log('Argument found');
 } else {
-    console.log('No argument');
+  console.log('No argument');
 }
-
-
-
