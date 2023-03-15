@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const Rectangle = class Rectangle {
   constructor (w, h) {
     this.width = w;
