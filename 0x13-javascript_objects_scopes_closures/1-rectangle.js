@@ -1,9 +1,9 @@
 const Rectangle = class Rectangle {
-    constructor(w, h){
+    constructor(w, h) {
         this.width = w;
         this.height = h;
     };
-    r1(){
+    r1() {
         console.log(w, h);
         console.log(this.w);
         console.log(this.h);
