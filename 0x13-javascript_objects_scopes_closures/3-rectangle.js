@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const Rectangle = class Rectangle {
-  constructor (w, h) {
+  constructor (h, w) {
     if (w === 0 || h === 0) {
       // empty constructor
     } else if (w < 0 || h < 0) {
@@ -14,12 +14,8 @@ const Rectangle = class Rectangle {
 
   print () {
     for (let i = 0; i < this.width; i++) {
-      for (let j = 0; j < this.height; j++) {
-        console.log('X');
-      }
-      console.log('\n');
+      console.log('X'.repeat(this.height));
     }
   }
 };
-
 module.exports = Rectangle;
