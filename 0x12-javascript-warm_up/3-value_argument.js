@@ -8,7 +8,7 @@
 // You are not allowed to use length
 
 const args = process.argv[2];
-// console.log(args);
+
 if (!args) {
   console.log('No argument');
 } else {
